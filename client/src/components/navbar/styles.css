@@ -1,0 +1,25 @@
+
+.main-container{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+
+}
+
+.sidebar {
+    display: block;
+    height: 100%;
+    width: 300px;
+    background-color: #0d54e0;
+    border-right: 2px solid grey;
+}
+
+.navbar{
+    width: calc(100% - 300px);
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+}
